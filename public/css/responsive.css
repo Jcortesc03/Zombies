@@ -1,0 +1,191 @@
+/* ==========================================================================
+   ZOMBI // AI ASSISTANT — Estilos responsive
+   Breakpoints: móvil < 40rem (640px) · tablet 40–64rem · escritorio > 64rem
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Tablet y pantallas pequeñas (hasta 960px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 60rem) {
+  .hero__desc {
+    max-width: 52ch;
+  }
+
+  .site-footer__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .output__bar {
+    padding: 0.6rem 0.85rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Móvil (hasta 640px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 40rem) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    width: min(100% - 1.5rem, var(--max-w));
+  }
+
+  .panel {
+    padding: 1.25rem;
+  }
+
+  /* Navegación: compacta y deslizable */
+  .site-header__inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.35rem;
+    padding: 0.75rem 0;
+  }
+
+  .brand {
+    justify-content: center;
+  }
+
+  .nav {
+    justify-content: flex-start;
+    padding-bottom: 0.15rem;
+  }
+
+  .nav__link {
+    padding: 0.45rem 0.7rem;
+    font-size: 0.76rem;
+  }
+
+  /* Hero ocupando toda la anchura */
+  .hero {
+    padding-top: 3rem;
+  }
+
+  .hero::after {
+    display: none;
+  }
+
+  .hero__meta {
+    gap: 0.4rem 1.1rem;
+    font-size: 0.7rem;
+  }
+
+  .menu-card {
+    min-height: 0;
+    padding: 1.5rem;
+  }
+
+  /* Botones a lo ancho en móvil */
+  .hero__actions .btn {
+    width: 100%;
+  }
+
+  .ask__footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ask__footer .btn {
+    width: 100%;
+  }
+
+  .ask__hint {
+    font-size: 0.78rem;
+  }
+
+  .ask__input {
+    min-height: 96px;
+    padding-right: 0.9rem;
+  }
+
+  .output__state {
+    padding: 1rem 0.25rem;
+  }
+
+  .output__state--error,
+  .state-code {
+    overflow-wrap: anywhere;
+  }
+
+  .source-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .source-card {
+    padding: 1.1rem 1.15rem;
+  }
+
+  .site-footer__links {
+    gap: 0.9rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Móviles muy pequeños (hasta 380px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 23.75rem) {
+  .brand__name {
+    font-size: 0.92rem;
+  }
+
+  .eyebrow {
+    letter-spacing: 0.18em;
+  }
+
+  .response__meta {
+    font-size: 0.68rem;
+  }
+
+  .output__bar {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .output__dots {
+    position: absolute;
+    top: 0.7rem;
+    right: 0.85rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Soporte para dispositivos táctiles
+   -------------------------------------------------------------------------- */
+@media (hover: none) {
+  .menu-card:hover,
+  .menu-card:focus-visible {
+    transform: none;
+  }
+
+  .source-card:hover {
+    transform: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Impresión
+   -------------------------------------------------------------------------- */
+@media print {
+  .site-header,
+  .site-footer,
+  .ask,
+  .hero__actions {
+    display: none;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .panel,
+  .output {
+    border: 1px solid #999;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "game": "blackops3",
+  "title": "Call of Duty: Black Ops III Zombies",
+  "release": 2015,
+  "developers": ["Treyarch"],
+  "maps": [
+    {
+      "name": "Shadows of Evil",
+      "setting": "Morgan City, una ciudad inspirada en la ficción pulp del noir de los años 40-60",
+      "characters": ["Nero", "Jessica", "Floyd", "Jack"],
+      "mysteries": "Cuatro celebridades atrapadas por el Shadow Man, un demonio que habita en la ciudad junto a los Apothicons. El mapa introduce el sistema de Rituales y el PaP de estilos. Al jugarse antes de los cuatro personajes primarios, sirve de puente narrativo en la historia del Aether.",
+      "perks": ["Juggernog", "Quick Revive", "Stamin-Up", "Speed Cola", "Widow's Wine"],
+      "weapons": "Apothicon Servant, Lil' Arnie, arma civil de distrito, caja de pruebas de distrito. El mapa aporta la Marca Civil y el Servant, armas de distrito con mecánicas ligadas a los gusanos alienígenas.",
+      "easterEggs": [
+        "Dentro del sombrero (Deep in the Hat)",
+        "Los cuatro: Beasts y los clubs",
+        "Rituales de las 4 distritos",
+        "Despertar a los Apothicons"
+      ],
+      "trivia": "El mapa se publicó con la historia principal a las 00:00 del día de lanzamiento en un reloj real. Los personajes son apodos basados en el 'Los 4 jinetes'. El símbolo del mapa se basa en la ciudad de Morgan."
+    },
+    {
+      "name": "Der Eisendrache",
+      "setting": "Castillo en los Alpes austríacos, refugio de Gruppe 942 durante la Segunda Guerra Mundial",
+      "characters": ["Richtofen", "Dempsey", "Nikolai", "Takeo"],
+      "mysteries": "Los Copperheads acaban con el castillo; el grupo debe usar la máquina de rejuvenecimiento (Ragnaroks). Es el mapa donde Richtofen empieza su plan de las células de energía. El easter egg 'Eisendrache' incluye la reconstrucción de la batería del castillo y el enfrentamiento al guardián Keeper.",
+      "perks": ["Juggernog", "Quick Revive", "Stamin-Up", "Speed Cola", "Electric Cherry"],
+      "weapons": "Wrath of the Ancient Sheep (Ragnaroks), Storm Bow, Fire Bow, Wolf Bow, Void Bow, Lightning Bow. Los arcos de los dragones son progresables con tótems de color.",
+      "easterEggs": [
+        "My Brother Tom (la cinta)",
+        "La cacería de la venganza",
+        "El guardián final"
+      ],
+      "trivia": "Es el mapa favorito de muchos jugadores por su equilibrio de dificultad y rejugabilidad. El diseño del castillo está inspirado en el Neuschwanstein alemán. Los arcos requieren disparar a 16 objetivos ocultos antes de recargar."
+    },
+    {
+      "name": "The Giant",
+      "setting": "Fábrica de grupo 935 en Alemania, remasterización de Der Riese de World at War",
+      "characters": ["Richtofen", "Dempsey", "Nikolai", "Takeo"],
+      "mysteries": "Repite el evento del teleportador de Der Riese para capturar a Richtofen de la Primera Guerra. Establece que el Richtofen de la Segunda Guerra es secuestrado durante el EEL regido por la máquina.",
+      "perks": ["Juggernog", "Quick Revive", "Stamin-Up", "Speed Cola", "Double Tap"],
+      "weapons": "Datos del radio de la máquina, PaP elevator, Annihilator (especial)",
+      "easterEggs": ["La cruz del guardián (campanarios)", "El sonido de los radios"],
+      "trivia": "Incluye referencias a la historia alternativa de Origins en el radio. Su nombre 'Giant' hace alusión a los 'gigantes' de la guerra."
+    }
+  ],
+  "characters": [
+    {
+      "name": "Edward Richtofen",
+      "alias": "El Doctor",
+      "affiliation": "Gruppe 935 / Aether",
+      "description": "Científico de la primera y segunda guerra mundial, el patrón de la locura y el protagonista antipático de toda la saga. Manipula al grupo buscando la Gemma ERO y el control de los Apothicons. Como el Director de la línea temporal de Primis, mantiene un diario en el que registra cada ciclo.",
+      "appearances": ["World at War", "Black Ops", "Black Ops II", "Black Ops III", "Black Ops 4", "Cold War (mencionado)"],
+      "trivia": "Es el único personaje no 'jugador' de los cuatro primarios que aparece en todos los juegos de la saga. Su voz es de Nolan North."
+    },
+    {
+      "name": "Tank Dempsey",
+      "alias": "Sargento",
+      "affiliation": "Cuerpo de Marines / Primis",
+      "description": "Marine de cuerpo duro y humor seco. En Origins aparece como el soldado que comanda el grupo cuando Richtofen le dispara. Es el miembro 'fuerte' del cuarteto.",
+      "appearances": [""],
+      "trivia": "Dempsey rompe la cuarta pared citando al jugador 'el joven' en ciertos momentos."
+    },
+    {
+      "name": "Nikolai Belinski",
+      "alias": "El Zar",
+      "affiliation": "Ejército Rojo / Primis",
+      "description": "Soldado ruso con problemas de abuso de vodka, amante de la literalidad. Es el personaje más mencionado como 'viejo' dentro del grupo y el encargado del humor negro.",
+      "appearances": [""],
+      "trivia": "Su muerte en el easter egg de Buried (BO2) es la clave de la resurrección de la saga."
+    },
+    {
+      "name": "Takeo Masaki",
+      "alias": "El Samurái",
+      "affiliation": "Ejército Imperial Japonés / Primis",
+      "description": "Caballero y samurái japonés. Busca la redención de su clan siguiendo a su maestro cuyo fantasma le persigue en varios mapas.",
+      "appearances": [""],
+      "trivia": "Su nombre hace referencia al 'Takeo Mayama', personaje de la OD de la serie."
+    }
+  ],
+  "trivia": [
+    "El nombre del modelo 'gemini-2.0-flash' es distinto al de la saga; no confundir con el mapa 'Gemini' de black ops.",
+    "Black Ops III fue el último juego en presentar el mapa original de la saga en su arte clave: el 'mapa de la mariposa'."
+  ]
+}
